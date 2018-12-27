@@ -1,10 +1,16 @@
 //Widescreens
 @include MediaXL {
+    .projects {
+        grid-template-columns: repeat(4, 1fr)
+    }
 
 }
 
 //Desktops & Laptops
 @include MediaLg {
+    .projects {
+        grid-template-columns: repeat(3, 1fr)
+    }
 
 }
 
@@ -41,7 +47,7 @@
         height: 25vh;
         transform: translate3d(100%, 0, 0);
 
-        .portraint {
+        .portrait {
             background: url("../img/DavidJL.jpg");
             width: 150px;
             height: 150px;
@@ -57,11 +63,17 @@
 
         grid-template-columns: 1fr;
     }
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 //Smartphones
 @include MediaSm {
     main#home h1 {
         margin-top: 10vh;
+    }
+    .projects {
+        grid-template-columns: 1fr;
     }
 }
