@@ -89,11 +89,12 @@
         .portrait {
             width: 250px;
             height: 310px;
-            background: url("/dist/img/jantine-doornbos-711322-unsplash.jpg");
+            background: url("../img/jantine-doornbos-711322-unsplash.jpg");
             border-radius: 25%;
             border: solid 3px $secondary-color;
         }
     }
+    
 
     .nav-item {
         transform: translate3d(600px, 0, 0);
